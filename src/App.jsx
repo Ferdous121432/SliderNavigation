@@ -28,13 +28,17 @@ export default function App() {
     <main className="w-full  h-screen bg-zinc-900 text-white ">
       <Nav />
       <Navigation />
-      <LandingSection />
-      <Marquee />
-      <About />
-      <Eyes />
-      <Featured />
-      <Cards />
-      <Footer />
+      <div>
+        <LandingSection />
+        <div data-scroll data-scroll-section data-scroll-speed=".2">
+          <Marquee />
+          {/* <About />
+          <Eyes />
+          <Featured />
+          <Cards /> */}
+          <Footer />
+        </div>
+      </div>
     </main>
   );
 }

@@ -3,11 +3,7 @@ import React from "react";
 
 export default function Marquee() {
   return (
-    <div
-      data-scroll
-      data-scroll-section
-      data-scroll-speed=".2"
-      className="bg-zinc-900 z-10 ">
+    <div className="bg-zinc-900 z-10 ">
       <div className="w-full py-10 bg-[#004D43] rounded-t-xl ">
         <div className="border-y-2 border-zinc-300 flex whitespace-nowrap overflow-hidden  ">
           <motion.h1
