@@ -10,7 +10,12 @@ export default function LandingSection() {
   ];
 
   return (
-    <section id="home" className="h-[99vh] w-full bg-zinc-900 border-t-4  ">
+    <section
+      id="home"
+      data-scroll
+      data-scroll-section
+      data-scroll-speed="-.3"
+      className="h-[99vh] w-full bg-zinc-900 border-t-4  ">
       <div className="textstructure mt-40 px-20 leading-[1rem] mb-[6rem] ">
         {leadingHeader.map((text, index) => (
           <div className="masker flex items-center gap-2" key={index}>
