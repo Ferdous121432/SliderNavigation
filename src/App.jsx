@@ -25,7 +25,9 @@ export default function App() {
   });
 
   return (
-    <main className="w-full  h-screen bg-zinc-900 text-white ">
+    <main
+      className="w-full relative h-screen bg-zinc-900 text-white"
+      data-scroll-container>
       <Nav />
       <Navigation />
       <div>
@@ -36,8 +38,9 @@ export default function App() {
           <Eyes />
           <Featured />
           <Cards /> */}
-          <Footer />
+          <div className="bg-transparent w-full h-[100vh]"></div>
         </div>
+        <Footer />
       </div>
     </main>
   );

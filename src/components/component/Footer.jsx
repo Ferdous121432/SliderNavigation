@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className="w-full h-screen gap-5 p-20 bg-slate-800 flex ">
+    <div className="w-full z-[-10] fixed top-0 h-screen gap-5 p-20 bg-slate-800 flex ">
       <div className="w-1/2 h-full flex flex-col justify-between ">
         <div className="heading flex ">
           <h1 className="text-4xl font-semibold uppercase leading-none ">
